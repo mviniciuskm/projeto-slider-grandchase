@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Grand Chase Slider</title>
+
+    <link rel="shortcut icon" href="src/imagens/grandchase-favicon.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+
+</head>
+<body>
+
+    <header class="cabecalho">
+        <img src="src/imagens/grandchase-favicon.png" alt="Grand Chase icone" class="grandchase-icone">
+        <h1 class="titulo">Grand Chase Slider</h1>
+    </header>
+  
+    <main class="grandchase-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="src/imagens/seta.png" alt="seta voltar">
+        </button>
+
+        <ul class="lista-personagens">
+            <li class="cartao selecionado fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Elesis</h2>
+                    <p class="vida"><img src="src/imagens/elesisarma.png" class="espada-personagem"  alt="Elesis Arma"></p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/elesis.png" alt="Elesis" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">História</h3>
+                    <p class="texto">Elesis é uma cavaleira temperamental com um forte senso de liderança. Sendo a primeira mulher sucessora da família Sieghart, ela tenta ser forte por si mesma e tende a agir "como um homem". Ela se enraivece e parece cansada de Sieghart agindo como um idiota e detesta quando ele a chama de ruivinha.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Lire</h2>
+                    <p class="vida"><img src="src/imagens/lirearma.png" class="espada-personagem"  alt="Lire Arma"></p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/lire.png" alt="Lire" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">História</h3>
+                    <p class="texto">Lire é uma jovem elfa que vivia protegida na isolada Ilha de Eryuell, lar dos elfos que se distanciaram dos problemas e conflitos do continente de Vermécia. Apesar de serem conhecidos por suas habilidades de combate, os Elfos de Eryuell por anos mantiveram sua natureza pacifista, evitando se envolver nos assuntos humanos.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Arme</h2>
+                    <p class="vida"><img src="src/imagens/armearma.png" class="espada-personagem"  alt="Arme Arma"></p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/arme.png" alt="Arme" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">História</h3>
+                    <p class="texto">Alegre e ingênua, Arme é a principal maga da Grand Chase. Vinda de Serdin, o reino famoso por seus magos e pela Academia de Magia Violeta. Arme tem uma personalidade mais infantil e inocente, que esconde o grande poder que ela carrega.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-4">
+                <div class="informacoes">
+                    <h2 class="nome">Lass</h2>
+                    <p class="vida"><img src="src/imagens/lassarma.png" class="espada-personagem"  alt="Lass Arma"></p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/lass.png" alt="Lass" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">História</h3>
+                    <p class="texto">Pouco se sabe sobre o passado de Lass. Por muitos anos, o corpo do garoto foi usado por Cazeaje, que o possuiu para se aproveitar de suas habilidades especiais. Quando ele finalmente foi libertado do controle da Rainha das Trevas pela Grand Chase, decidiu se unir ao grupo para se redimir pelas ações que foi forçado a cometer em nome de Cazeaje.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-5">
+                <div class="informacoes">
+                    <h2 class="nome">Ryan</h2>
+                    <p class="vida"><img src="src/imagens/ryanarma.png" class="espada-personagem"  alt="Ryan Arma"></p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/ryan.png" alt="Ryan" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">História</h3>
+                    <p class="texto">Ryan é um elfo muito gentil que adora ajudar os outros, além de proteger a floresta e os seres que nela habitam. Órfão, ele cresceu sozinho vivendo ao lado dos animais, até ser adotado pelo druida Satyr, que o treinou na Ordem dos Druidas. Com o ataque dos monstros de Cazeaje e a destruição de muitos locais sagrados para a Ordem dos Druidas, Ryan acabou se unindo à Grand Chase para deter as forças do mal, quando foi salvo por Elesis, Lire e Arme.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Ronan</h2>
+                    <p class="vida"><img src="src/imagens/ronanarma.png" class="espada-personagem"  alt="Ronan Arma"></p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/ronan.png" alt="Ronan" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">História</h3>
+                    <p class="texto">Ronan é descendente dos Erudon, lendária família de espadachins-arcanos de Canaban. Por este prestígio, exercia a função de guarda real, posto que ocupou até o traiçoeiro ataque de Cazeaje. Um jovem justo, valente e de coração puro, ele resistiu à tentativa da Rainha das Trevas de dominar o seu corpo, e experimentando em primeira mão a força do seu mal, decidiu encarar como sua missão derrotá-la para restaurar a paz em seu reino. Por dividirem o mesmo objetivo, ele juntou forças com a Grand Chase enquanto buscavam pelo paradeiro de Cazeaje.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-6">
+                <div class="informacoes">
+                    <h2 class="nome">Amy</h2>
+                    <p class="vida"><img src="src/imagens/amyarma.png" class="espada-personagem"  alt="Amy Arma"></p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/amy.png" alt="Amy" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">História</h3>
+                    <p class="texto">Amy é uma garota alegre, que cresceu cercada de mimos na Ordem Prateada e sempre sonhou com o estrelato. Criada pelas sacerdotisas da Ordem, que veneravam os deuses de Xênia, Amy sempre chamou muito a atenção, pois ao contrário de suas companheiras reservadas e recatadas, ela fazia de tudo para aparecer e mostrar seu talento. </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Jin</h2>
+                    <p class="vida"><img src="src/imagens/jinarma.png" class="espada-personagem"  alt="Jin Arma"></p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/jin.png" alt="Jin" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">História</h3>
+                    <p class="texto">Nascido na Terra de Prata, Jin sempre foi um rapaz esforçado e corajoso. Logo cedo ele começou seu treinamento de artes marciais para integrar a Ordem dos Cavaleiros de Prata, o grupo de combate de elite que protegia a Terra de Prata.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Sieghart</h2>
+                    <p class="vida"><img src="src/imagens/sieghartarma.png" class="espada-personagem"  alt="Sieghart Arma"></p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/sieghart.png" alt="Sieghart" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">História</h3>
+                    <p class="texto">Há quase 6 séculos Sieghart já era conhecido como um desastre natural por todo reino de Canaban. Seus feitos heróicos foram ganhando tamanha proporção que sua história foi adquirindo caráter lendário. </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-4">
+                <div class="informacoes">
+                    <h2 class="nome">Mari</h2>
+                    <p class="vida"><img src="src/imagens/mariarma.png" class="espada-personagem"  alt="Mari Arma"></p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/mari.png" alt="Mari" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">História</h3>
+                    <p class="texto">Mari ainda é um dos grandes mistérios da Grand Chase. Encontrada pelo grupo a caminho do Altar da Destruição, Mari não possuía nenhum traço de sua memória. De semblante apático e inexpressivo, e olhos heterocromáticos que não deixam transparecer quase nenhuma emoção, talvez o fato de não se lembrar de absolutamente nada é que alimente a maior motivação da garota: a busca pelo conhecimento. </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Dio</h2>
+                    <p class="vida"><img src="src/imagens/dioarma.png" class="espada-personagem"  alt="Dio Arma"></p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/dio.png" alt="Dio" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">História</h3>
+                    <p class="texto">Dio é um habitante da Dimensão Mágica de Elyos, desconhecida por quase todos os humanos, dominada por criaturas demoníacas e energias arcanas. Membro da raça conhecida como Asmodiana, seu povo é dividido entre várias Tribos Demoníacas que disputam o poder.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Zero</h2>
+                    <p class="vida"><img src="src/imagens/zeroarma.png" class="espada-personagem"  alt="Zero Arma"></p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/zero.png" alt="Zero" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">História</h3>
+                    <p class="texto">Zero é reservado, e tem imensa dificuldade em expressar seus sentimentos. Isso porque ele se mantem inseparável de sua companheira Grandark, uma poderosíssima espada mágica sapiente que possui ela própria uma personalidade muito forte.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Rey</h2>
+                    <p class="vida"><img src="src/imagens/reyarma.png" class="espada-personagem"  alt="Rey Arma"></p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/rey.png" alt="Rey" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">História</h3>
+                    <p class="texto">Rey é uma asmodiana, da mesma dimensão de Dio, seu amigo de infância. Assim como ele, Rey também pertence a uma das famílias mais nobres e prestigiadas das Tribos Demoníacas, os Von Crimson River. Sofisticada e culta, Rey herdou as poderosas habilidades mágicas de sua família e as desenvolveu de forma incrível, ganhando grande controle sobre a gravidade. Além disso, Rey desenvolveu um poder bastante especial, sendo capaz de invocar outras criaturas das trevas para lhe obedecer.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Lupus</h2>
+                    <p class="vida"><img src="src/imagens/lupusarma.png" class="espada-personagem"  alt="Lupus Arma"></p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/lupus.png" alt="Lupus" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">História</h3>
+                    <p class="texto">Lupus Wild é um guerreiro da dimensão de Hades, também conhecido como Submundo. É para lá que vão as almas daqueles que morrem em Ernas, o mundo mortal onde se passam as aventuras da Grand Chase. As almas malignas acabam aprisionadas em uma prisão, onde devem passar a eternidade se arrependendo de seus pecados. Já as almas boas vivem livremente, aguardando pela sua reencarnação, ao lado dos nativos da dimensão, os seres conhecidos como Haros.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-4">
+                <div class="informacoes">
+                    <h2 class="nome">Lin</h2>
+                    <p class="vida"><img src="src/imagens/linarma.png" class="espada-personagem"  alt="Lin Arma"></p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/lin.png" alt="Lin" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">História</h3>
+                    <p class="texto">Conta a história que há muito tempo, quando as criadoras ainda habitavam Ernas, existiram quatro deusas: Ernasis, a deusa da guerra e da coragem; Lisnar, a deusa da afeição e dos espíritos; Armenias, a deusa da sabedoria e da harmonia; e finalmente, Agnecia, a deusa da vida e da pureza. </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-4">
+                <div class="informacoes">
+                    <h2 class="nome">Azin</h2>
+                    <p class="vida"><img src="src/imagens/azinarma.png" class="espada-personagem"  alt="Azin Arma"></p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/azin.png" alt="Azin" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">História</h3>
+                    <p class="texto">Misterioso, reservado e extremamente racional, Azin é um dos grandes mistérios da Grand Chase. Vingativo e com sede de poder, o garoto cujo nome verdadeiro ele mesmo preferiu abandonar está longe de ser um herói típico. </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Holy</h2>
+                    <p class="vida"><img src="src/imagens/holyarma.png" class="espada-personagem"  alt="Holy Arma"></p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/holy.png" alt="Holy" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">História</h3>
+                    <p class="texto">Nascida na pequena ilha onde se localiza o Reino da Luz, próxima ao continente de Vermécia, Holy Serenity cresceu num ambiente bastante religioso, já que o reino é comandado pelo Papa Constantino. Por isso desde cedo aprendeu a valorizar a moral e virtudes como bondade e justiça.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-4">
+                <div class="informacoes">
+                    <h2 class="nome">Edel</h2>
+                    <p class="vida"><img src="src/imagens/edelarma.png" class="espada-personagem"  alt="Edel Arma"></p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/edel.png" alt="Edel" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">História</h3>
+                    <p class="texto">A família Frost era uma das poucas famílias utilizando espadas no reino mágico Serdin, mas com a mágica no reino ganhando forças, seu poder e status foram gradualmente decrescendo. Edel Frost e Adel nasceram gêmeos. Seu irmão era sábio e sagaz e, por conta disso, era esperado que ele revivesse o nome de sua família.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Veigas</h2>
+                    <p class="vida"><img src="src/imagens/veigasarma.png" class="espada-personagem"  alt="Veigas Arma"></p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/veigas.png" alt="Veigas" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">História</h3>
+                    <p class="texto">Veigas Terr é o líder da família Terr, núcleo das famílias radicais, e foi um dos que enviou seus exércitos à Primeira Guerra Mágica de Elyos contra Ernas e apesar de ser muito velho para os padrões humanos, em Elyos ele é considerado um jovem e verdadeiro prodígio, já que até onde se sabe, foi escolhido pelo próprio Criador para destruir outras dimensões.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-4">
+                <div class="informacoes">
+                    <h2 class="nome">Uno</h2>
+                    <p class="vida"><img src="src/imagens/unoarma.png" class="espada-personagem"  alt="Uno Espada"></p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/uno.png" alt="Uno" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">História</h3>
+                    <p class="texto">Para evitar que os Highlanders não pudessem atrapalhar seus planos de se tornar o Deus Supremo de Ernas, Astaroth encontrou suas ruínas sagradas e exterminou o clã inteiro. Após, Astaroth usou um poderoso feitiço para “congelar” o local e selar as ruínas.</p>
+                </div>
+            </li>
+                      
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="src/imagens/seta.png" alt="seta avançar">
+        </button>
+
+    </main>
+    
+    <script src="src/js/index.js"></script>
+</body>
+</html>
+
